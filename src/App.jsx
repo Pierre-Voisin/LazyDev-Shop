@@ -1,14 +1,15 @@
-import { useState } from "react";
+/* import { useState } from "react"; */
 import ProductCatalog from "./components/ProductCatalog.jsx";
-import ProductFilter from "./components/ProductFilter.jsx";
+/* import ProductFilter from "./components/ProductFilter.jsx"; */
+import "./assets/styles/App.css";
 
 function App() {
-  const [filter, setFilter] = useState("none");
+  /* const [filter, setFilter] = useState("none"); */
+  /* <ProductFilter setFilter={setFilter} /> */
   return (
-    <>
-      <ProductFilter setFilter={setFilter} />
+    <div className="content">
       <ProductCatalog />
-    </>
+    </div>
   );
 }
 

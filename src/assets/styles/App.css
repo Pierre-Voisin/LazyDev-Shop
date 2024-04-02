@@ -1,0 +1,51 @@
+article {
+  display: flex;
+  max-width: 60%;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+.product {
+  padding: 0.5rem;
+  padding-top: 1rem;
+  max-width: 40%;
+  background-color: var(--lochinvar);
+  * {
+    padding: 0.25rem;
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    max-width: 90%;
+    border: 2px groove var(--black);
+    padding: 0;
+  }
+  figcaption {
+    margin: 0.6rem;
+    font-size: 1.2rem;
+  }
+  p,
+  span {
+    padding: 0.125rem;
+  }
+  .product-details {
+    border: 1px dashed var(--black);
+    margin: 1rem;
+  }
+  button {
+    display: block;
+    margin: 0.5rem auto;
+    background-color: var(--white);
+  }
+}
+figcaption {
+  text-align: center;
+  font-weight: 800;
+}
+
+.price {
+  span {
+    color: var(--velvet-red);
+  }
+}
