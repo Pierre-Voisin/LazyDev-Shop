@@ -1,0 +1,23 @@
+[
+  {
+    "name": "lunettes correctives (temporaire)",
+    "image": "",
+    "price": "TBD",
+    "category": "Accessoires",
+    "description": "lorem ipsum dolor sit emet"
+  },
+  {
+    "name": "Serveurs 'Out of this world' (temporaires)",
+    "image": "",
+    "price": "TBD",
+    "category": "Services",
+    "description": "lorem ipsum dolor sit emet"
+  },
+  {
+    "name": "CodingBytes",
+    "image": "",
+    "price": "TBD",
+    "category": "Services",
+    "description": "lorem ipsum dolor sit emet"
+  }
+]
