@@ -1,51 +1,50 @@
 [
   {
-    "name": "lunettes correctives (temporaire)",
-    "image": "",
-    "price": "TBD",
+    "name": "VisualGPT Glasses™",
+    "image": "src/assets/glasses.png",
+    "price": 399.99,
     "category": "Accessoires",
-    "description": "Paire de lunettes correctives pour vous aider à corriger votre syntaxe, orthographe et erreurs logiques dans votre code, ce qui vous évite d'ajouter des dépendences supplémentaires dans vos projets (peu importe le langage utilisé)"
+    "description": "Paire de lunettes correctives pour vous aider à corriger votre syntaxe, orthographe et erreurs logiques dans votre code, ce qui vous évite d'ajouter des dépendences supplémentaires dans vos projets (et ceci peu importe le langage utilisé)",
+    "id": 1
   },
   {
-    "name": "Serveurs 'Out of this world' (temporaires)",
-    "image": "",
-    "price": "TBD",
+    "name": "Serveurs 'Offworld'",
+    "image": "src/assets/lunar-servers.png",
+    "price": 899.99,
     "category": "Services",
-    "description": "Location de serveurs situés sur la Lune ou Mars (au choix) à des prix plus que raisonnables sans avoir à se soucier de coûts supplémentaires engendrés par la ventilation de ces derniers. Le tout avec une latence record !"
+    "description": "Location de serveurs situés sur la Lune, Mars (et bien d'autres!) à des prix plus que raisonnables sans avoir à se soucier de coûts supplémentaires engendrés par la ventilation de ces derniers, le tout avec une latence record !",
+    "id": 2
   },
   {
-    "name": "CodingBytes",
-    "image": "",
-    "price": "TBD",
-    "category": "Services",
-    "description": "Service de livraison de repas pour développeurs faits sur mesures, délivrés par drones directement sur votre bureau pour ne plus avoir à quitter votre plan de travail"
-  },
-  {
-    "name": "PowerJS",
-    "image": "",
-    "price": "TBD",
+    "name": "Byte-sized™",
+    "image": "src/assets/drone.png",
+    "price": 12.99,
     "category": "Nutrition",
-    "description": "Boission qui, lorsque vous la buvez (entièrement), vous donne la maîtrise de JavaScript/TypeScript (& React) pendant 1 heure !"
+    "description": "Service de livraison de repas pour développeurs faits sur mesures, délivrés par drones directement sur votre bureau pour ne plus avoir à quitter votre plan de travail",
+    "id": 3
   },
   {
-    "name": "Dicteuse de code nocturne",
-    "image": "",
-    "price": "TBD",
-    "category": "Accessoires",
-    "description": "Plus besoin de s'acharner à lire de la documentation et perdre son temps et son énergie le jour, cette dicteuse de code nocturne s'occupe du reste afin que vous dormiez sereinement et ne perdiez plus de temps à lire 'manuellement' ou à faire un effort conscient pour retenir ces informations"
+    "name": "PowerJS™",
+    "image": "src/assets/PowerJS.png",
+    "price": 8.99,
+    "category": "Nutrition",
+    "description": "Boission qui, lorsque vous la buvez (entièrement), vous donne la maîtrise de JavaScript/TypeScript (& React) pendant 1 heure !",
+    "id": 4
   },
   {
-    "name": "Clavier à frapper automatique",
-    "image": "",
-    "price": "TBD",
+    "name": "Clavier automatique",
+    "image": "src/assets/keyboard.jpg",
+    "price": 319.99,
     "category": "Accessoires",
-    "description": "Ce clavier innovateur va révolutionner la manière dont vous codez en supprimant la partie la plus répétitive de votre journée: taper des lettres. Avec ce clavier vous n'avez plus qu'à le brancher et observer la magie(*) !"
+    "description": "Ce clavier innovateur va révolutionner la manière dont vous codez en supprimant la partie la plus répétitive de votre journée: taper des lettres. Avec ce clavier vous n'avez plus qu'à le brancher et observer la magie(*) !",
+    "id": 5
   },
   {
     "name": "Location d'Ayoub",
-    "image": "",
-    "price": "TBD",
+    "image": "src/assets/ayoub.png",
+    "price": 3999.99,
     "category": "Services",
-    "description": "Location à prix compétitif d'un formateur professionnel pour vous aider dans tous vos projets, peu importe la nature. Discrétion, proffesionel et le tout sans aucunes questions posées..."
+    "description": "Location à prix compétitif d'un formateur professionnel pour vous aider dans tous vos projets, peu importe la nature. Discrétion, proffesionel et le tout sans aucunes questions posées...",
+    "id": 6
   }
 ]
