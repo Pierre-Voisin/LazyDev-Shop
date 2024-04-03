@@ -7,11 +7,12 @@ import ProductDetails from "./components/ProductDetails.jsx";
 function App() {
   const [filter, setFilter] = useState("none");
   const [focus, setFocus] = useState(null);
+
   return (
     <div className="content">
-      <ProductFilter />
+      <ProductFilter setFilter={setFilter} />
       <div className="product-display">
-        <ProductCatalog />
+        <ProductCatalog filter={filter} setFocus={setFocus} />
         <ProductDetails focus={focus} />
       </div>
     </div>
