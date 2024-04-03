@@ -9,8 +9,8 @@
 
   --white: #eeeeee;
   --black: #222222;
-  --velvet-red: #904353;
-  --lochinvar: #439080;
+  --secondary-color: #97384b;
+  --primary-color: #439080;
 }
 
 * {
@@ -22,4 +22,8 @@
 body {
   background-color: var(--white);
   color: var(--black);
+}
+
+ul {
+  list-style-type: none;
 }

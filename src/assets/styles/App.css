@@ -1,3 +1,24 @@
+header {
+  background-color: var(--primary-color);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+  p {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+}
+.filters {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  li {
+    button {
+      padding: 0.25rem;
+    }
+  }
+}
+
 article {
   display: flex;
   max-width: 60%;
@@ -9,7 +30,7 @@ article {
   padding: 0.5rem;
   padding-top: 1rem;
   max-width: 40%;
-  background-color: var(--lochinvar);
+  background-color: var(--primary-color);
   * {
     padding: 0.25rem;
   }
@@ -46,6 +67,24 @@ figcaption {
 
 .price {
   span {
-    color: var(--velvet-red);
+    color: var(--secondary-color);
+  }
+}
+
+.product-display {
+  display: flex;
+  gap: 1rem;
+}
+
+.details {
+  width: 100%;
+  background-color: var(--primary-color);
+  .undefined {
+    margin: 0 auto;
+    width: fit-content;
+    padding: 0.5rem;
+    margin-top: 10rem;
+    text-align: center;
+    border: 1px dotted var(--black);
   }
 }

@@ -1,20 +1,26 @@
-function ProductFilter(setFilter) {
-  const accessories = { name: "Accessoires", isActive: false };
-  const nutrition = { name: "Nutrition", isActive: false };
-  const services = { name: "Services", isActive: false };
+import PropTypes from "prop-types";
+
+function ProductFilter({ setFilter }) {
   return (
     <header>
-      <input type="checkbox" onClick={setFilter(accessories.name)}>
-        {accessories.name}
-      </input>
-      <input type="checkbox" onClick={setFilter(nutrition.name)}>
-        {nutrition.name}
-      </input>
-      <input type="checkbox" onClick={setFilter(services.name)}>
-        {services.name}
-      </input>
+      <p>Filtres :</p>
+      <ul className="filters">
+        <li>
+          <button>Accessoires</button>
+        </li>
+        <li>
+          <button>Nutrition</button>
+        </li>
+        <li>
+          <button>Services</button>
+        </li>
+      </ul>
     </header>
   );
 }
+
+ProductFilter.propTypes = {
+  setFilter: PropTypes.func,
+};
 
 export default ProductFilter;
