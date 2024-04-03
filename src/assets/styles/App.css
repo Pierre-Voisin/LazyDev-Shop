@@ -79,6 +79,7 @@ figcaption {
 .details {
   width: 100%;
   background-color: var(--primary-color);
+  padding-top: 2rem;
   .undefined {
     margin: 0 auto;
     width: fit-content;
@@ -86,5 +87,9 @@ figcaption {
     margin-top: 10rem;
     text-align: center;
     border: 1px dotted var(--black);
+  }
+  .product {
+    max-width: 85%;
+    margin: 0 auto;
   }
 }

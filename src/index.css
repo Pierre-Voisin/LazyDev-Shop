@@ -27,3 +27,8 @@ body {
 ul {
   list-style-type: none;
 }
+
+.product-display {
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+}

@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-function Product({ name, image, price, category }) {
+function Product({ name, image, price, category, setFocus, index }) {
   return (
     <figure className="product">
       <img src={image} alt={name} />
@@ -13,7 +13,7 @@ function Product({ name, image, price, category }) {
           Categorie :<span> {category}</span>
         </p>
       </div>
-      <button>Learn more...</button>
+      <button onClick={() => setFocus(index)}>Learn more...</button>
     </figure>
   );
 }
@@ -23,6 +23,8 @@ Product.propTypes = {
   image: PropTypes.string.isRequired,
   price: PropTypes.number.isRequired,
   category: PropTypes.string.isRequired,
+  setFocus: PropTypes.func.isRequired,
+  index: PropTypes.number.isRequired,
 };
 
 export default Product;

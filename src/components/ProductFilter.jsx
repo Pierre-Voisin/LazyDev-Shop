@@ -1,18 +1,21 @@
 import PropTypes from "prop-types";
 
 function ProductFilter({ setFilter }) {
+  const handleFilter = (filterName) => {
+    setFilter(filterName);
+  };
   return (
     <header>
       <p>Filtres :</p>
       <ul className="filters">
         <li>
-          <button>Accessoires</button>
+          <button onClick={() => handleFilter("Accessoires")}>Accessoires</button>
         </li>
         <li>
-          <button>Nutrition</button>
+          <button onClick={() => handleFilter("Nutrition")}>Nutrition</button>
         </li>
         <li>
-          <button>Services</button>
+          <button onClick={() => handleFilter("Services")}>Services</button>
         </li>
       </ul>
     </header>
@@ -20,7 +23,8 @@ function ProductFilter({ setFilter }) {
 }
 
 ProductFilter.propTypes = {
-  setFilter: PropTypes.func,
+  setFilter: PropTypes.func.isRequired,
+  /* filter: PropTypes.string, */
 };
 
 export default ProductFilter;
